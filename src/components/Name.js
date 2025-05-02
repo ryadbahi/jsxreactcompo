@@ -1,6 +1,6 @@
 import React from "react";
-
-const Name = ({ product }) => (
+import product from "../product";
+const Name = () => (
   <h2>
     {" "}
     <strong>{product.name}</strong>{" "}

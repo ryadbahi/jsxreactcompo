@@ -1,5 +1,6 @@
 import React from "react";
+import product from "../product";
 
-const Description = ({ product }) => <p>{product.description}</p>;
+const Description = () => <p>{product.description}</p>;
 
 export default Description;
